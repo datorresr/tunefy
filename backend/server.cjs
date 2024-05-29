@@ -32,6 +32,12 @@ let sessions = {};
 function generateSessionId() {
   return Math.random().toString(36).substring(2, 15);
 }
+
+server.get('/', (req, res) => {
+  // Return a success HTTP code (200)
+  res.status(200).send('Success');
+});
+
 server.post("/create-session", (req, res) => {
   const username = req.body.username;
   if (!username) {
