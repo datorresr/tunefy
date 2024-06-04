@@ -76,8 +76,8 @@ The application will open in your default web browser at `http://192.168.1.6:300
 - The Spotify callback route `/callback` is used for handling OAuth authentication with Spotify.
 
 ### Add environment variables
-GOOGLE_KEY="AIzaSyAAL1GtGXpN3NEgcbRUqQvEzNaRMk740uM"
-AI21_TOKEN="mJ4SfZVGu3Yn1MtQqpbNt1NpzhvbbE6i"
+GOOGLE_KEY=<your_google_key>
+AI21_TOKEN=<your_ai21_token>
 
 ## API Endpoints
 
