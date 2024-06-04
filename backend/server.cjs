@@ -447,7 +447,7 @@ ${userInput}
     const response = await fetch("https://api.ai21.com/studio/v1/j2-mid/complete", {
       method: "POST",
       headers: {
-        "Content-Type": "serverlication/json",
+        "Content-Type": "application/json",
         Authorization: `Bearer ${token}`,
       },
       body: JSON.stringify({
