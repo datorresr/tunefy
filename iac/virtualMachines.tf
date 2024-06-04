@@ -42,7 +42,7 @@ resource "azurerm_virtual_machine" "frontend" {
         - echo 'export GOOGLE_KEY="${var.google_key}"' >> /etc/profile.d/env.sh
         - sudo -u azureuser git clone https://github.com/datorresr/tunefy.git /home/azureuser/tunefy
         - cd /home/azureuser/tunefy/frontend
-        - docker-compose up -d
+        - sudo docker-compose up -d
       EOF
   }
 
